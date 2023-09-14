@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Samurai";
+    src: url(midias/Fonts/SINGLE\ FIGHTER.otf) format(woff2), url(midias/Fonts/SINGLE\ FIGHTER.otf) format(woff);    
+}
+body{
+    background-image: url(midias/imagens/walpapermesmo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+h1{
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px hsl(0, 90%, 44%),-3px -3px 5px hsl(0, 90%, 44%);
+    color: wheat;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Samurai;
+}
+h1 span:hover{
+    text-shadow:3px 3px 5px hsl(60, 100%, 1%) ,3px -3px 5px hwb(169 8% 59% / 0.912);
+    color: rgba(252, 56, 56, 0.966);
+    cursor:default;
+}
+main{
+    margin-left: 10px;
+    color: wheat;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    margin: 0px;
+    overflow: hidden;
+}
+h3{
+    display: flex;
+    position: fixed;
+    bottom: 45%;
+    font-family: Samurai;
+    text-shadow: 3px 3px 5px hsl(0, 90%, 44%),-3px -3px 5px hsl(0, 90%, 44%);
+}
+h3 span:hover{
+    text-shadow:3px 3px 5px hsl(60, 100%, 1%) ,3px -3px 5px hwb(169 8% 59% / 0.912);
+    color: rgba(252, 56, 56, 0.966);
+}
+p{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    position: fixed;
+    bottom: 30%;
+    font-size: 20px;
+}
+.button-begin{
+    display: flex;
+    position: fixed;
+    left: 69%;
+    bottom: 55%;
+    padding: 30px 80px;
+    background-color: hsl(0, 78%, 41%);
+    border: 2px solid #000000;
+    border-radius: 0px;
+    color: hsl(39, 77%, 83%);
+    letter-spacing: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: samurai;
+    font-weight: 900;
+    font-size: 30px;
+}
+.button-begin:hover {
+    background-color: #ce1515;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.button-begin2{
+    display: flex;
+    position: fixed;
+    left: 3%;
+    bottom: 55%;
+    padding: 30px 80px;
+    background-color: hsl(0, 78%, 41%);
+    border: 2px solid #000000;
+    border-radius: 0px;
+    color: hsl(39, 77%, 83%);
+    letter-spacing: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: samurai;
+    font-weight: 900;
+    font-size: 30px;
+}
+.button-begin2:hover {
+    background-color: #ce1515;
+    transform: scale(1.1);
+    cursor: pointer;
+}    
+.links:hover{
+    color: rgba(252, 56, 56, 0.966);
+    text-shadow: 3px 3px 5px hsl(59, 100%, 51%);
+}
+.navbar{
+    margin: 0px;
+}
+.navbar a{
+    font-family: Samurai;
+    text-shadow: 3px 3px 5px hsl(0, 90%, 44%);
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    text-shadow: 8px 8px 4px hwb(0 0% 100%);
+    color: rgb(248, 39, 39);
+    size: 13px;
+}
+.navbar li{
+    float: left;
+}

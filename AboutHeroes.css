@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Samurai";
+    src: url(midias/Fonts/SINGLE\ FIGHTER.otf) format(woff2), url(midias/Fonts/SINGLE\ FIGHTER.otf) format(woff);    
+}
+body{
+    background-image: url(midias/imagens/daredevil.jpg);
+    background-repeat: no-repeat;           
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    color: hsl(39, 77%, 83%);  
+}
+h1 span{
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px hsl(0, 100%, 25%),-3px -3px 5px hsl(0, 100%, 23%);
+    color: hsl(39, 77%, 83%);
+    margin-top: 0px;
+    display: flex;
+    position: fixed;
+    bottom: 60%;
+    right: 2%;
+    font-family: Samurai;
+}
+h1 span:hover{
+    text-shadow:3px 3px 5px hsl(199, 97%, 40%) ,3px -3px 5px hwb(214 2% 9% / 0.912);
+    color: rgba(119, 2, 2, 0.966);
+    cursor:default;
+}
+p{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    position: fixed;
+    bottom: 43%;
+    
+}
+p:hover{
+    font-weight: 600;
+    transform: scaleY(1.2);   
+}
+#p2{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    position: fixed;
+    bottom: 5%;
+    
+}
+#p3{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    font-family: Samurai;
+    position: fixed;
+    bottom: 50%;
+    letter-spacing: 2px;
+}
+#p4{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    font-family: Samurai;
+    position: fixed;
+    bottom: 12%;
+    letter-spacing: 2px;
+}
+#p5{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    font-family: Samurai;
+    position: fixed;
+    bottom: 30%;
+    letter-spacing: 2px;
+}                                                                       
+#p6{
+    text-shadow: 3px 3px 5px hsl(60, 100%, 1%);
+    position: fixed;
+    bottom: 26%;
+}
+#p2:hover{
+    transform: scaleY(1.2);
+    font-weight: 600;
+}
+#p6:hover{
+    transform: scaleY(1.2);
+    font-weight: 600;
+}
+
