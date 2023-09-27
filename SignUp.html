@@ -9,23 +9,31 @@
     <script src="YasuoOnline.js"></script>
 </head>
 <body>
+    
+    <nav class="navbar">
+        <ul class="links">
+            <li><a href="SignIn.html" target="_blank">Sign in</a></li>
+            <li><a href="SignUp.html" target="_blank">Sign up</a></li>
+            <li><a href="AboutHeroes.html"target="_blank">About heroes</a></li>
+        </ul>
+    </nav>
 
 <section>
     <div class="login-box">
-        <form method="post" id="singupForm">    
+        <form method="post" id="signupForm">    
             <h2><span> Sign up</span></h2>
             <div class="input-box">
                 <span class="icon">
                     <ion-icon name="person-outline"></ion-icon>
                 </span>
-                <input type="name"  id="singupheroName" required>            
+                <input type="name"  id="signupheroName" required>            
                 <label>Hero Name</label>
             </div>    
             <div class="input-box">
                 <span class="icon">
                     <ion-icon name="mail"></ion-icon>
                 </span>
-                <input type="email"  id="singupEmail" required>            
+                <input type="email"  id="signupEmail" required>            
                 <label>Email</label>
             </div>   
             <div class="input-box">
@@ -33,10 +41,10 @@
                     <ion-icon name="lock-closed">               
                     </ion-icon>
                 </span>
-                <input type="password"  id="singupPassword" required>
+                <input type="password"  id="signupPassword" required>
                 <label>Password</label>
             </div>
-            <button type="submit">Sing Up</button>
+            <button type="submit">Sign Up</button>
         </form>
     </div>
 </section>

@@ -3,12 +3,12 @@ const userData = {};
 document.getElementById('signupForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    const heroName = document.getElementById('singupHeroname').value;
-    const email = document.getElementById('singupEmail').value;
-    const password = document.getElementById('singupPassword').value;
+    const heroName = document.getElementById('signupHeroname').value;
+    const email = document.getElementById('signupEmail').value;
+    const password = document.getElementById('signupPassword').value;
 
     userData[email] = { heroName, email, password};
-    alert ('SingUp successful!')
+    alert ('SignUp successful!')
 
 });
 

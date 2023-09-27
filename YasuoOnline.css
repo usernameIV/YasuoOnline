@@ -27,13 +27,6 @@ main{
     margin-left: 10px;
     color: wheat;
 }
-.navbar ul{
-    list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 8px;
-    margin: 0px;
-    overflow: hidden;
-}
 h3{
     display: flex;
     position: fixed;
@@ -70,8 +63,7 @@ p{
 .button-begin:hover {
     background-color: #ce1515;
     transform: scale(1.1);
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 .button-begin2{
     display: flex;
@@ -114,6 +106,13 @@ p{
     text-shadow: 8px 8px 4px hwb(0 0% 100%);
     color: rgb(248, 39, 39);
     size: 13px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    margin: 0px;
+    overflow: hidden;
 }
 .navbar li{
     float: left;

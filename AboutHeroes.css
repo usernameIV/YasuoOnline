@@ -8,7 +8,35 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover; 
-    color: hsl(39, 77%, 83%);  
+    color: hsl(39, 77%, 83%); 
+    margin: 0;
+}
+header{
+   margin: 0;
+}
+.navbar a{
+    font-family: Samurai;
+    text-shadow: 3px 3px 5px hsl(0, 90%, 44%);
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    text-shadow: 8px 8px 4px hwb(0 0% 100%);
+    color: rgb(248, 39, 39);
+    size: 13px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar li{
+    float: left;
 }
 h1 span{
     letter-spacing: 5px;
